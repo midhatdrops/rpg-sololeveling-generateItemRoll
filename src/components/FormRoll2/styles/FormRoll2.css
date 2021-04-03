@@ -1,0 +1,24 @@
+.FormRollInput {
+  width: 20%;
+  border-radius: 2px;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.FormRollLabel {
+  font-family: Oswald, sans-serif;
+  font-size: 1rem;
+  margin-top: 1rem;
+  letter-spacing: 0.2rem;
+  font-weight: 200;
+}
+
+.GenerateCodeButton {
+  margin-top: 2rem;
+  padding: 6px;
+  border-radius: 4px;
+  background-color: #121212;
+  border: 1px solid whitesmoke;
+  color: whitesmoke;
+  cursor: pointer;
+}
