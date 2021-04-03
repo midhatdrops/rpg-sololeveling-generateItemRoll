@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/rpg-sololeveling-generateitemroll/static/css/main.1085c0e8.chunk.css",
-    "main.js": "/rpg-sololeveling-generateitemroll/static/js/main.18d03b89.chunk.js",
-    "main.js.map": "/rpg-sololeveling-generateitemroll/static/js/main.18d03b89.chunk.js.map",
+    "main.js": "/rpg-sololeveling-generateitemroll/static/js/main.9862a385.chunk.js",
+    "main.js.map": "/rpg-sololeveling-generateitemroll/static/js/main.9862a385.chunk.js.map",
     "runtime-main.js": "/rpg-sololeveling-generateitemroll/static/js/runtime-main.b9c0bd60.js",
     "runtime-main.js.map": "/rpg-sololeveling-generateitemroll/static/js/runtime-main.b9c0bd60.js.map",
     "static/js/2.e4c22452.chunk.js": "/rpg-sololeveling-generateitemroll/static/js/2.e4c22452.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.b9c0bd60.js",
     "static/js/2.e4c22452.chunk.js",
     "static/css/main.1085c0e8.chunk.css",
-    "static/js/main.18d03b89.chunk.js"
+    "static/js/main.9862a385.chunk.js"
   ]
 }
