@@ -65,11 +65,11 @@ function App() {
         <Route
           exact
           path="/rpg-sololeveling-generateitemroll"
-          component={Leilao}
+          component={Translator}
         />
         <Route
-          path="/rpg-sololeveling-generateitemroll/translator"
-          component={Translator}
+          path="/rpg-sololeveling-generateitemroll/leilao"
+          component={Leilao}
         />
       </Switch>
     </BrowserRouter>

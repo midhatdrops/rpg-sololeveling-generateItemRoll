@@ -1,0 +1,22 @@
+.navBar {
+  grid-area: Nav;
+  width: 100vw;
+  height: 70px;
+  background-color: #121212;
+  border-bottom: 1px solid whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Oswald, sans-serif;
+  color: rgba(204, 200, 200, 0.932);
+  font-weight: 200;
+}
+
+.ButtonNav {
+  background: none;
+  border: none;
+  color: rgba(204, 200, 200, 0.932);
+  cursor: pointer;
+  text-align: center;
+  margin-right: 2rem;
+}

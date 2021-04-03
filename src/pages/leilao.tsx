@@ -5,6 +5,7 @@ import { FormRoll2 } from '../components/FormRoll2';
 import { GeneratedCode } from '../components/GeneratedCode';
 import { LogoHeader } from '../components/LogoHeader';
 import { generatePostCode } from '../Utils/generatePostCode';
+import { Navbar } from '../components/navbar';
 
 import {
   GenerateLeilaoRoll,
@@ -34,6 +35,7 @@ export const Leilao = () => {
   return (
     <div className="App">
       {/* <LogoHeader /> */}
+      <Navbar />
       <FormRoll1
         bonus={newItem.getBonus}
         type={newItem.getType}

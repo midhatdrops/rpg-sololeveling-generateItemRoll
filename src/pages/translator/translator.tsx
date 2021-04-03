@@ -3,6 +3,7 @@ import { TranslatorInputs } from '../../components/Regular/TranslatorInput';
 import { generatePostCode } from '../../Utils/generatePostCode';
 import { TranslateGeneralRoll } from '../../Service/RegularRoll/TranslateGeneralRoll';
 import './translator.css';
+import { Navbar } from '../../components/navbar';
 
 export function Translator() {
   const [dgRank, SetDgRank] = useState('');
@@ -36,6 +37,7 @@ export function Translator() {
   }
   return (
     <div className="Translator">
+      <Navbar />
       <div className="inputArea1">
         <TranslatorInputs
           dgRankInput={SetDgRank}
