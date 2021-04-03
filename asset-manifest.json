@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/rpg-sololeveling-generateitemroll/static/css/main.c7f75381.chunk.css",
-    "main.js": "/rpg-sololeveling-generateitemroll/static/js/main.cffef176.chunk.js",
-    "main.js.map": "/rpg-sololeveling-generateitemroll/static/js/main.cffef176.chunk.js.map",
+    "main.css": "/rpg-sololeveling-generateitemroll/static/css/main.1085c0e8.chunk.css",
+    "main.js": "/rpg-sololeveling-generateitemroll/static/js/main.18d03b89.chunk.js",
+    "main.js.map": "/rpg-sololeveling-generateitemroll/static/js/main.18d03b89.chunk.js.map",
     "runtime-main.js": "/rpg-sololeveling-generateitemroll/static/js/runtime-main.b9c0bd60.js",
     "runtime-main.js.map": "/rpg-sololeveling-generateitemroll/static/js/runtime-main.b9c0bd60.js.map",
-    "static/js/2.bcf443c1.chunk.js": "/rpg-sololeveling-generateitemroll/static/js/2.bcf443c1.chunk.js",
-    "static/js/2.bcf443c1.chunk.js.map": "/rpg-sololeveling-generateitemroll/static/js/2.bcf443c1.chunk.js.map",
+    "static/js/2.e4c22452.chunk.js": "/rpg-sololeveling-generateitemroll/static/js/2.e4c22452.chunk.js",
+    "static/js/2.e4c22452.chunk.js.map": "/rpg-sololeveling-generateitemroll/static/js/2.e4c22452.chunk.js.map",
     "index.html": "/rpg-sololeveling-generateitemroll/index.html",
-    "static/css/main.c7f75381.chunk.css.map": "/rpg-sololeveling-generateitemroll/static/css/main.c7f75381.chunk.css.map",
-    "static/js/2.bcf443c1.chunk.js.LICENSE.txt": "/rpg-sololeveling-generateitemroll/static/js/2.bcf443c1.chunk.js.LICENSE.txt"
+    "static/css/main.1085c0e8.chunk.css.map": "/rpg-sololeveling-generateitemroll/static/css/main.1085c0e8.chunk.css.map",
+    "static/js/2.e4c22452.chunk.js.LICENSE.txt": "/rpg-sololeveling-generateitemroll/static/js/2.e4c22452.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.b9c0bd60.js",
-    "static/js/2.bcf443c1.chunk.js",
-    "static/css/main.c7f75381.chunk.css",
-    "static/js/main.cffef176.chunk.js"
+    "static/js/2.e4c22452.chunk.js",
+    "static/css/main.1085c0e8.chunk.css",
+    "static/js/main.18d03b89.chunk.js"
   ]
 }
