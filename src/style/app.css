@@ -1,9 +1,6 @@
-body {
+.App {
   background-color: #121212;
   color: whitesmoke;
-}
-
-.App {
   width: 100vw;
   height: 100vh;
   display: grid;

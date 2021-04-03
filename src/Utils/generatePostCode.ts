@@ -1,6 +1,10 @@
 import { GenerateLeilaoRoll } from '../Service/GenerateLeilaoRoll';
+import { GenerateRegularRoll } from '../Service/GenerateRegularRoll';
+import { TranslateGeneralRoll } from '../Service/RegularRoll/TranslateGeneralRoll';
 
-export function generatePostCode(newItem: GenerateLeilaoRoll) {
+export function generatePostCode(
+  newItem: GenerateLeilaoRoll | GenerateRegularRoll | TranslateGeneralRoll
+) {
   //prettier-ignore
   return `<center><small>[b]SUBSTITUIR O NOME PELO LEILOEIRO[/b] escreveu:</small>
   TEXTO DE DESCRIÇÃO

@@ -1,10 +1,4 @@
-interface Durability {
-  points: number;
-  durability: number;
-}
-
-export function durabilityRand(): Durability {
-  const roll = Math.floor(Math.random() * 10 + 1);
+export function durabilityTranslator(roll: number) {
   if (roll <= 2) {
     return { points: -5, durability: 3 };
   }

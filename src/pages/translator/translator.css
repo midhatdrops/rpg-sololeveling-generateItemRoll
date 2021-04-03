@@ -1,0 +1,50 @@
+.Translator {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  overflow: hidden;
+  background-color: #121212;
+  grid-template-rows: 1fr 1fr;
+  color: whitesmoke;
+  grid-template-columns: repeat(2, 1fr);
+  /* prettier-ignore */
+  grid-template-areas: 
+  "Input Input"
+  "Code Code";
+}
+
+.inputArea1 {
+  margin-top: 0.7rem;
+  grid-area: Input;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Oswald, sans-serif;
+  font-size: 1rem;
+  font-weight: 200;
+}
+
+.GenerateCodeArea {
+  margin-top: 1rem;
+  grid-area: Code;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.5rem;
+  font-weight: 100;
+  background-color: #121212;
+  color: whitesmoke;
+}
+
+.GenerateCodeButton {
+  margin-bottom: 2rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+}
