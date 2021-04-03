@@ -54,8 +54,7 @@
 //   );
 // }
 
-import { BrowserRouter, Switch } from 'react-router-dom';
-import { Route } from 'react-router';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import { Leilao } from './pages/leilao';
 import { Translator } from './pages/translator/translator';
 
