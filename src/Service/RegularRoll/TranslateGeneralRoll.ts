@@ -28,9 +28,9 @@ export class TranslateGeneralRoll {
     attributeRoll: number,
     conditionsRoll: number
   ) {
-    const attribute = attributeTranslator(attributeRoll);
-    const bonus = bonusTranslator(dgRank, bonusRoll);
     const type = typeTranslator(typeRoll, dgRank);
+    const attribute = attributeTranslator(attributeRoll, type);
+    const bonus = bonusTranslator(dgRank, bonusRoll);
     const effect = effectTranslator(effectRoll, type);
     const durability = durabilityTranslator(durabilityRoll);
     const conditions = conditionTranslator(type, conditionsRoll);

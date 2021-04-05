@@ -33,7 +33,7 @@ export class GenerateLeilaoRoll {
   constructor() {
     const bonus = bonusRand();
     const type = TypeRand();
-    const affectedAtributte = attributeRand();
+    const affectedAtributte = attributeRand(type);
     const effect = effectRand(type);
     const useConditions = ConditionsRand(type);
     const durability = durabilityRand();
