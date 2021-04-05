@@ -26,7 +26,7 @@ export class GenerateRegularRoll {
     const bonus = BonusRand(dgRank);
     const effect = effectRand(type);
     const durability = durabilityRand();
-    const affectedAtributte = attributeRand();
+    const affectedAtributte = attributeRand(type);
 
     this.bonus = bonus.bonus;
     this.useConditions = condition.useCondition;
