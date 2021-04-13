@@ -18,6 +18,7 @@ export class GenerateRegularRoll {
   private penality: string = '';
   private effectDescription = '';
   private totalPoints: number = 0;
+  private price: string = '';
 
   constructor(dgRank: string) {
     this.DgRank = dgRank;
@@ -47,6 +48,9 @@ export class GenerateRegularRoll {
     return this.DgRank;
   }
 
+  get getPrice() {
+    return this.price;
+  }
   get getBonus() {
     return this.bonus;
   }

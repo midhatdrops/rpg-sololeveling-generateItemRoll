@@ -5,6 +5,7 @@ import { conditionTranslator } from './translators/conditionTranslator';
 import { durabilityTranslator } from './translators/durabilityTranslator';
 import { effectTranslator } from './translators/effectTranslator';
 import { typeTranslator } from './translators/typeTranslator';
+import { priceCalculator } from '../../Utils/priceCalculator';
 
 export class TranslateGeneralRoll {
   private DgRank: string = '';
@@ -18,6 +19,7 @@ export class TranslateGeneralRoll {
   private penality: string = '';
   private effectDescription = '';
   private totalPoints: number = 0;
+  private price: string = '';
 
   constructor(
     bonusRoll: number,
@@ -48,10 +50,15 @@ export class TranslateGeneralRoll {
     this.totalPoints =
       bonus.points + effect.points + durability.points + conditions.points;
     this.itemRank = itemRankCalculator(this.totalPoints);
+    this.price = priceCalculator(this.itemRank, this.type);
   }
 
   get getDgRank() {
     return this.DgRank;
+  }
+
+  get getPrice() {
+    return this.price;
   }
 
   get getBonus() {

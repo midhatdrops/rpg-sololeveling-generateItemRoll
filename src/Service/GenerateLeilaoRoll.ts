@@ -5,6 +5,7 @@ import { effectRand } from './Rands/Leilao/effectRand';
 import { TypeRand } from './Rands/Leilao/typeRand';
 import { ConditionsRand } from './Rands/Leilao/useConditions';
 import { itemRankCalculator } from './Rands/Leilao/itemRankCalculator';
+import { priceCalculator } from '../Utils/priceCalculator';
 
 export interface InterfaceGenerateLeilaoRoll {
   bonus?: number;
@@ -16,6 +17,7 @@ export interface InterfaceGenerateLeilaoRoll {
   penality?: string;
   effectDescription?: string;
   itemRank?: string;
+  price?: string;
 }
 
 export class GenerateLeilaoRoll {
@@ -29,6 +31,7 @@ export class GenerateLeilaoRoll {
   private effectDescription: string = '';
   private itemRank: string = '';
   private totalPoints: number = 0;
+  private price: string = '';
 
   constructor() {
     const bonus = bonusRand();
@@ -49,19 +52,17 @@ export class GenerateLeilaoRoll {
     this.type = type;
     this.effectDescription = effect.description;
 
-    console.log(
-      bonus.points,
-      effect.points,
-      durability.points,
-      useConditions.points
-    );
-
     this.itemRank = itemRankCalculator(this.totalPoints);
+    this.price = priceCalculator(this.itemRank, this.type);
   }
 
   //Getters
   get getBonus() {
     return this.bonus;
+  }
+
+  get getPrice() {
+    return this.price;
   }
 
   get getType() {
